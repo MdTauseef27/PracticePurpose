@@ -1,9 +1,15 @@
 import React from "react";
-export const Tab2() 
+export const Tab2=() =>
 {
-  return <headline />;
+  return (
+
+    <div>
+
+      
+    <h1 >Hello Friends</h1>
+    <h2>hiiiiiiiiiiiii</h2>
+    </div>
+  )
+ 
 };
-export function headline() {
-  const greeting = "Hello Greeting Function for Tab2";
-  return <h1>{greeting}</h1>;
-}
+
