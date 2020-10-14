@@ -8,8 +8,9 @@ export const Tab2=() =>
       
 
       
-    <h1 className='primary'>Hello Friends</h1>
-    <h2>hiiiiiiiiiiiii</h2>
+    <h1 >Hello Friends</h1>
+    <h2 className="primary">hiiiiiiiiiiiii</h2>
+    <h3 id="heading">byeeeeeeeeee</h3>
     </div>
   )
  

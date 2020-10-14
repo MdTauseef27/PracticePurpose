@@ -1,4 +1,15 @@
+h1{
+    color:white;
+    background:purple;
+    font-family: fantasy;
+}
 .primary{
-    color:red;
-    background:green;
+    color:yellow;
+    background: red;
+    font-family: cursive;
+}
+#heading{
+    color:green;
+    background:gold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
