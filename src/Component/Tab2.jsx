@@ -9,9 +9,12 @@ export const Tab2 = () => {
           <Col sm={2}>
             <h1
               style={{
-                marginTop: "30px",
+                marginTop: "60px",
+                marginLeft: "30px",
                 paddingTop: "30px",
                 paddingLeft: "10px",
+                paddingRight: "10px",
+                paddingBottom: "30px",
               }}
             >
               Hello Friends
