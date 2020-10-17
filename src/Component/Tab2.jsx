@@ -4,10 +4,18 @@ import { Row, Col, Container, Button } from "react-bootstrap";
 export const Tab2 = () => {
   return (
     <div>
-      <Container fluid>
+      <Container fluid style={{ paddingTop: "30px" }}>
         <Row>
           <Col sm={2}>
-            <h1>Hello Friends</h1>
+            <h1
+              style={{
+                marginTop: "30px",
+                paddingTop: "30px",
+                paddingLeft: "10px",
+              }}
+            >
+              Hello Friends
+            </h1>
           </Col>
           <Col sm={2}>
             <h2 className="primary">hiiiiiiiiiiiii</h2>
