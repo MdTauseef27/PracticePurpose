@@ -1,6 +1,6 @@
 import React from "react";
 import "./Stylesheet.css";
-import { Row, Col, Container } from "react-bootstrap";
+import { Row, Col, Container, Button } from "react-bootstrap";
 export const Tab2 = () => {
   return (
     <div>

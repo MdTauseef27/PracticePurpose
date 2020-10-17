@@ -1,5 +1,5 @@
 import React from "react";
-import { Nav, Tab, Tabs } from "react-bootstrap";
+import { Tab, Tabs } from "react-bootstrap";
 import { Tab1 } from "./Tab1";
 import { Tab2 } from "./Tab2";
 export const Blogs = () => {
