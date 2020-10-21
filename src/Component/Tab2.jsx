@@ -35,6 +35,7 @@ export const Tab2 = () => {
           <Col sm={2}>
             <p>okkkkkkkkkk</p>
             <Button>Submit</Button>
+            <Button>Cancel</Button>
           </Col>
         </Row>
       </Container>
