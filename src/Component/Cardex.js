@@ -13,8 +13,7 @@ export const Cardex = () => {
           <Card.Body>
             <Card.Title>Features Of React</Card.Title>
             <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              React is a open source library created by the facebook.
             </Card.Text>
           </Card.Body>
         </Col>
