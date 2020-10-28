@@ -14,9 +14,8 @@ export const Mediaex = () => {
       <Media.Body style={{ marginLeft: "30px" }}>
         <h5>Robert Steve</h5>
         <p>
-          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus abcdehgjk
-          scelerisque ante sollicitudin commodo. Cras purus odio, vest vulputate
-          at, tempus viverra turpis.
+          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
+          abcdehgjkscelerisque anteds. sollicitudin commodo.
         </p>
       </Media.Body>
     </Media>
