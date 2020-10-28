@@ -2,6 +2,7 @@ import React from "react";
 import { Media } from "react-bootstrap";
 import ImgLogo1 from "../Component/Img/main1.jpg";
 import CommentLogo from "../Component/Img/Comment.svg";
+import PinLogo from "../Component/Img/Push.svg";
 export const Mediaex = () => {
   return (
     <Media style={{ border: "1px solid black" }}>
@@ -19,6 +20,7 @@ export const Mediaex = () => {
           abcdehgjkscelerisque anteds. sollicitudin commodo.
         </p>
         <img src={CommentLogo} alt=""></img>
+        <img src={PinLogo} alt=""></img>
       </Media.Body>
     </Media>
   );
