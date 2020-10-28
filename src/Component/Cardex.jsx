@@ -11,11 +11,11 @@ export const Cardex = () => {
             src={ImgLogo}
             className="avatar"
             alt=""
-            style={{ border: "1px solid #F47E21", margin: "10px" }}
+            style={{ border: "1px solid #F47E21", margin: "30px" }}
           />
         </Col>
         <Col sm={9}>
-          <Card.Body>
+          <Card.Body style={{ margin: "10px" }}>
             <Card.Title>Features Of React</Card.Title>
             <Card.Text>
               React is a open source library created by the facebook.
