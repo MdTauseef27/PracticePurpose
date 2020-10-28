@@ -11,7 +11,7 @@ export const Cardex = () => {
             src={ImgLogo}
             className="avatar"
             alt=""
-            style={{ border: "1px solid #F47E21" }}
+            style={{ border: "1px solid #F47E21", margin: "10px" }}
           />
         </Col>
         <Col sm={9}>
