@@ -7,12 +7,7 @@ export const Cardex = () => {
     <Card style={{ width: "30rem", border: "1px solid black" }}>
       <Row>
         <Col sm={3}>
-          <Card.Img
-            src={ImgLogo}
-            className="avatar"
-            alt=""
-            style={{ border: "1px solid #F47E21", margin: "30px" }}
-          />
+          <Card.Img src={ImgLogo} className="avatar" alt="" />
         </Col>
         <Col sm={9}>
           <Card.Body style={{ margin: "10px" }}>
