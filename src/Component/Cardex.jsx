@@ -4,7 +4,7 @@ import ImgLogo from "./Img/main1.jpg";
 import "../Component/Stylesheetex.css";
 export const Cardex = () => {
   return (
-    <Card style={{ width: "30rem", border: "1px solid black" }}>
+    <Card style={{ width: "25rem", border: "1px solid black" }}>
       <Row>
         <Col sm={3}>
           <Card.Img src={ImgLogo} className="avatar" alt="" />

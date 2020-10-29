@@ -8,8 +8,8 @@ export const Mediaex = () => {
   return (
     <Media style={{ border: "1px solid black" }}>
       <img
-        width={25}
-        height={25}
+        width={23}
+        height={28}
         src={ImgLogo1}
         alt=""
         style={{ border: "1px solid #F47E21" }}

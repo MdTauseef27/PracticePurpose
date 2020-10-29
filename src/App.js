@@ -10,10 +10,10 @@ function App() {
     <div>
       <Navbars />
       <Row>
-        <Col sm={6}>
+        <Col lg={6}>
           <Cardex />
         </Col>
-        <Col sm={6}>
+        <Col lg={6}>
           <Mediaex />
         </Col>
       </Row>
