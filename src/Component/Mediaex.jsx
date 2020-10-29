@@ -6,10 +6,10 @@ import PinLogo from "../Component/Img/Push.svg";
 import LikesLogo from "../Component/Img/Like.svg";
 export const Mediaex = () => {
   return (
-    <Media style={{ border: "1px solid black" }}>
+    <Media style={{ border: "1px solid black", marginTop: "5px" }}>
       <img
-        width={23}
-        height={28}
+        width={20}
+        height={32}
         src={ImgLogo1}
         alt=""
         style={{ border: "1px solid #F47E21" }}
