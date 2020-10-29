@@ -2,12 +2,12 @@ import React from "react";
 import { Navbars } from "./Component/Navbars";
 import { Cardex } from "./Component/Cardex";
 import { Mediaex } from "./Component/Mediaex";
-import { Row, Col } from "react-bootstrap";
+import { Row, Col, Container } from "react-bootstrap";
 import "./App.css";
 
 function App() {
   return (
-    <div>
+    <Container fluid>
       <Navbars />
       <Row>
         <Col lg={6}>
@@ -17,7 +17,7 @@ function App() {
           <Mediaex />
         </Col>
       </Row>
-    </div>
+    </Container>
   );
 }
 

@@ -6,24 +6,46 @@ import PinLogo from "../Component/Img/Push.svg";
 import LikesLogo from "../Component/Img/Like.svg";
 export const Mediaex = () => {
   return (
-    <Media style={{ border: "1px solid black", marginTop: "5px" }}>
-      <img
-        width={15}
-        height={32}
-        src={ImgLogo1}
-        alt=""
-        style={{ border: "1px solid #F47E21" }}
-      />
-      <Media.Body style={{ marginLeft: "30px" }}>
-        <h5>Robert Steve</h5>
-        <p>
-          Cras sit amet nibh libero, in gravida nulla nulla.
-          abcdehgjkscelerisque anteds. sollicitudin commodo.
-        </p>
-        <img src={CommentLogo} alt=""></img>
-        <img src={PinLogo} alt=""></img>
-        <img src={LikesLogo} alt=""></img>
-      </Media.Body>
-    </Media>
+    <div>
+      <Media style={{ border: "1px solid black", marginTop: "5px" }}>
+        <img
+          width={15}
+          height={32}
+          src={ImgLogo1}
+          alt=""
+          style={{ border: "1px solid #F47E21" }}
+        />
+        <Media.Body style={{ marginLeft: "30px" }}>
+          <h5>Robert Steve</h5>
+          <p>
+            Cras sit amet nibh libero, in gravida nulla nulla.
+            abcdehgjkscelerisque anteds. sollicitudin commodo.
+          </p>
+          <img src={CommentLogo} alt=""></img>
+          <img src={PinLogo} alt=""></img>
+          <img src={LikesLogo} alt=""></img>
+        </Media.Body>
+      </Media>
+
+      <Media style={{ border: "1px solid black", marginTop: "5px" }}>
+        <img
+          width={15}
+          height={32}
+          src={ImgLogo1}
+          alt=""
+          style={{ border: "1px solid #F47E21" }}
+        />
+        <Media.Body style={{ marginLeft: "30px" }}>
+          <h5>Robert Steve</h5>
+          <p>
+            Cras sit amet nibh libero, in gravida nulla nulla.
+            abcdehgjkscelerisque anteds. sollicitudin commodo.
+          </p>
+          <img src={CommentLogo} alt=""></img>
+          <img src={PinLogo} alt=""></img>
+          <img src={LikesLogo} alt=""></img>
+        </Media.Body>
+      </Media>
+    </div>
   );
 };
