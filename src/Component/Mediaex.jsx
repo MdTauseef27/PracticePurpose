@@ -23,10 +23,12 @@ export const Mediaex = () => {
             abcdehgjkscelerisque anteds. sollicitudin commodo.
           </p>
           <button>
-            <img src={CommentLogo} alt=""></img>Comment
+            <img src={CommentLogo} alt=""></img>
+          </button>
+          <button>
+            <img src={PinLogo} alt=""></img>
           </button>
 
-          <img src={PinLogo} alt=""></img>
           <img src={LikesLogo} alt=""></img>
         </Media.Body>
       </Media>
