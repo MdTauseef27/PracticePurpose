@@ -32,10 +32,10 @@ export const Mediaex = () => {
           <button>
             <img src={PinLogo} alt=""></img>
           </button>
-          <button onclick={(e) => SetLikes(Likes + 1)}>
+          <button onClick={(e) => SetLikes(Likes + 1)}>
             <img src={LikesLogo} alt=""></img>
+            {Likes}
           </button>
-          Likes:{Likes}
         </Media.Body>
       </Media>
 
