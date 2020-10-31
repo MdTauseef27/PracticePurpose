@@ -6,9 +6,9 @@ import PinLogo from "../Component/Img/Push.svg";
 import LikesLogo from "../Component/Img/Like.svg";
 export const Mediaex = () => {
   const [Likes, SetLikes] = useState(0);
-  const [LikesCount, SetLikesCount] = useState(0);
+
   useEffect(() => {
-    SetLikesCount(Likes);
+    SetLikes(Likes);
   }, [Likes]);
   return (
     <div>
@@ -32,10 +32,10 @@ export const Mediaex = () => {
           <button>
             <img src={PinLogo} alt=""></img>
           </button>
-          <button onclick={() => SetLikes(Likes + 1)}>
+          <button onclick={(e) => SetLikes(Likes + 1)}>
             <img src={LikesLogo} alt=""></img>
           </button>
-          {SetLikesCount}
+          Likes:{Likes}
         </Media.Body>
       </Media>
 
