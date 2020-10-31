@@ -22,7 +22,10 @@ export const Mediaex = () => {
             Cras sit amet nibh libero, in gravida nulla nulla.
             abcdehgjkscelerisque anteds. sollicitudin commodo.
           </p>
-          <img src={CommentLogo} alt=""></img>
+          <button>
+            <img src={CommentLogo} alt=""></img>Comment
+          </button>
+
           <img src={PinLogo} alt=""></img>
           <img src={LikesLogo} alt=""></img>
         </Media.Body>
