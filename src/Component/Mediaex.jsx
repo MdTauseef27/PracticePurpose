@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Media } from "react-bootstrap";
 import ImgLogo1 from "../Component/Img/main1.jpg";
 import CommentLogo from "../Component/Img/Comment.svg";
@@ -6,6 +6,10 @@ import PinLogo from "../Component/Img/Push.svg";
 import LikesLogo from "../Component/Img/Like.svg";
 export const Mediaex = () => {
   const [Likes, SetLikes] = useState(0);
+  const [LikesCount, SetLikesCount] = useState(0);
+  useEffect(() => {
+    SetLikesCount(Likes);
+  }, [Likes]);
   return (
     <div>
       <Media style={{ border: "1px solid black", marginTop: "5px" }}>
@@ -31,6 +35,7 @@ export const Mediaex = () => {
           <button onclick={() => SetLikes(Likes + 1)}>
             <img src={LikesLogo} alt=""></img>
           </button>
+          {SetLikesCount}
         </Media.Body>
       </Media>
 
