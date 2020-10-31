@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { Media } from "react-bootstrap";
 import ImgLogo1 from "../Component/Img/main1.jpg";
 import CommentLogo from "../Component/Img/Comment.svg";
 import PinLogo from "../Component/Img/Push.svg";
 import LikesLogo from "../Component/Img/Like.svg";
 export const Mediaex = () => {
+  const [Likes, SetLikes] = useState(0);
   return (
     <div>
       <Media style={{ border: "1px solid black", marginTop: "5px" }}>
