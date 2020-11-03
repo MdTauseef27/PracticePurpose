@@ -90,7 +90,7 @@ export const Mediaex = () => {
           <button>
             <img src={PinLogo} alt=""></img>Pin
           </button>
-
+          <button>Likes</button>
           <img src={LikesLogo} alt=""></img>
         </Media.Body>
       </Media>
