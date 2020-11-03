@@ -84,6 +84,7 @@ export const Mediaex = () => {
             Cras sit amet nibh libero, in gravida nulla nulla.
             abcdehgjkscelerisque anteds. sollicitudin commodo.
           </p>
+          <button>Comment</button>
           <img src={CommentLogo} alt=""></img>
           <img src={PinLogo} alt=""></img>
           <img src={LikesLogo} alt=""></img>
