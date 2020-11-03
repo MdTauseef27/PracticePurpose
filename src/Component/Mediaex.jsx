@@ -30,9 +30,11 @@ export const Mediaex = () => {
           <button>
             <img src={CommentLogo} alt=""></img>
           </button>
+          {"     "}
           <button>
             <img src={PinLogo} alt=""></img>
           </button>
+          {"     "}
           <button onClick={(e) => SetLikes(Likes + 1)}>
             <img src={LikesLogo} alt=""></img>
             {Likes}
@@ -87,9 +89,11 @@ export const Mediaex = () => {
           <button>
             <img src={CommentLogo} alt=""></img>
           </button>
+          {"     "}
           <button>
             <img src={PinLogo} alt=""></img>
           </button>
+          {"     "}
           <button>
             <img src={LikesLogo} alt=""></img>
           </button>
