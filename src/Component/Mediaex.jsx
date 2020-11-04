@@ -7,6 +7,7 @@ import LikesLogo from "../Component/Img/Like.svg";
 export const Mediaex = () => {
   const [Likes, SetLikes] = useState(0);
   const [Likes1, SetLikes1] = useState(0);
+  const [Likes2, SetLikes2] = useState(0);
 
   useEffect(() => {
     SetLikes(Likes, Likes1);
