@@ -23,7 +23,7 @@ export const Mediaex = () => {
           style={{ border: "1px solid #F47E21" }}
         />
         <Media.Body style={{ marginLeft: "30px" }}>
-          <h5>Robert Steve</h5>
+          <h5>Robert Steven</h5>
           <p>
             Cras sit amet nibh libero, in gravida nulla nulla.
             abcdehgjkscelerisque anteds. sollicitudin commodo. asndld aksjnddk
