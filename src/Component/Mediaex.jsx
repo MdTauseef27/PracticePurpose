@@ -55,7 +55,8 @@ export const Mediaex = () => {
           <h5>Robert Steve</h5>
           <p>
             Cras sit amet nibh libero, in gravida nulla nulla.
-            abcdehgjkscelerisque anteds. sollicitudin commodo.
+            abcdehgjkscelerisque anteds. sollicitudin commodo. asmknd aksjdnk
+            jask kjsdkd ksakehdh wheroih dsnlk.
           </p>
           <button>
             <img src={CommentLogo} alt=""></img>
