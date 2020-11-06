@@ -32,6 +32,7 @@ export const Mediaex = () => {
           <button>
             <img src={CommentLogo} alt=""></img>
           </button>
+          <button></button>
           {"     "}
           <button>
             <img src={PinLogo} alt=""></img>
