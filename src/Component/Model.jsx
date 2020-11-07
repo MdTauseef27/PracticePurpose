@@ -20,6 +20,7 @@ export const Model = () => {
             Close Modal
           </Button>
         </Modal.Footer>
+      </Modal>
     </div>
   );
 };
