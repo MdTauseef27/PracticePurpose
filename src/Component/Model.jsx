@@ -12,6 +12,9 @@ export const Model = () => {
         <Modal.Header closeButton>
           <Modal.Title>Login Form</Modal.Title>
         </Modal.Header>
+        <Modal.Body>
+          <LoginForm onSubmit={onLoginFormSubmit} />
+        </Modal.Body>
     </div>
   );
 };
