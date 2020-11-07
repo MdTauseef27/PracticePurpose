@@ -15,6 +15,11 @@ export const Model = () => {
         <Modal.Body>
           <LoginForm onSubmit={onLoginFormSubmit} />
         </Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleClose}>
+            Close Modal
+          </Button>
+        </Modal.Footer>
     </div>
   );
 };
