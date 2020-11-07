@@ -1,5 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
+import { Button, Modal, Form } from "react-bootstrap";
 export const Model = () => {
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
+  const onLoginFormSubmit = (e) => {
+    e.preventDefault();
+    handleClose();
+  };
   return (
     <div
       className="d-flex align-items-center justify-content-center"
@@ -13,7 +23,7 @@ export const Model = () => {
           <Modal.Title>Login Form</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <LoginForm onSubmit={onLoginFormSubmit} />
+          <Form onSubmit={onLoginFormSubmit} />
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>

@@ -3,6 +3,7 @@ import { Navbars } from "./Component/Navbars";
 import { Cardex } from "./Component/Cardex";
 import { Mediaex } from "./Component/Mediaex";
 import { LoginForm } from "./Component/LoginForm";
+import { Model } from "./Component/Model";
 import { Row, Col, Container } from "react-bootstrap";
 import "./App.css";
 
@@ -17,6 +18,7 @@ function App() {
         <Col lg={6}>
           <Mediaex />
           <LoginForm />
+          <Model />
         </Col>
       </Row>
     </Container>
