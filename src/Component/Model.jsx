@@ -8,6 +8,10 @@ export const Model = () => {
       <Button variant="primary" onClick={handleShow}>
         Launch Form modal
       </Button>
+      <Modal show={show} onHide={handleClose}>
+        <Modal.Header closeButton>
+          <Modal.Title>Login Form</Modal.Title>
+        </Modal.Header>
     </div>
   );
 };
