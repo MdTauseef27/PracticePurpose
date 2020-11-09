@@ -24,7 +24,7 @@ export const Cardex = () => {
                 React is a open source library created by the facebook.
               </Card.Text>
             </Card.Body>
-            <button></button>
+            <button>submit</button>
           </Col>
         </Row>
       </Card>
