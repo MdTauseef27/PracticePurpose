@@ -7,7 +7,7 @@ export const Cardex = () => {
     <div>
       <Card
         style={{
-          width: "30rem",
+          width: "25rem",
           height: "8rem",
           border: "1px solid black",
           marginTop: "5px",
