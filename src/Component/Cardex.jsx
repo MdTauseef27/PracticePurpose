@@ -22,9 +22,9 @@ export const Cardex = () => {
               <Card.Title>Features Of React</Card.Title>
               <Card.Text>
                 React is a open source library created by the facebook.
+                <button>submit</button>
               </Card.Text>
             </Card.Body>
-            <button>submit</button>
           </Col>
         </Row>
       </Card>
