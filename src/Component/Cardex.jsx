@@ -3,6 +3,7 @@ import { Card, Row, Col } from "react-bootstrap";
 import ImgLogo from "./Img/main1.jpg";
 import imgLogo1 from "./Img/Comment.svg";
 import imgLogo2 from "./Img/Push.svg";
+import imgLogo3 from "./Img/Like.svg";
 import "../Component/Stylesheetex.css";
 export const Cardex = () => {
   return (
