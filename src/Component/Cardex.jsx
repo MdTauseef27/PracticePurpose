@@ -2,6 +2,7 @@ import React from "react";
 import { Card, Row, Col } from "react-bootstrap";
 import ImgLogo from "./Img/main1.jpg";
 import imgLogo1 from "./Img/Comment.svg";
+import imgLogo2 from "./Img/Push.svg";
 import "../Component/Stylesheetex.css";
 export const Cardex = () => {
   return (
@@ -29,7 +30,7 @@ export const Cardex = () => {
               </button>
               {"      "}
               <button>
-                <img src={imgLogo1} alt=""></img>
+                <img src={imgLogo2} alt=""></img>
               </button>
             </Card.Body>
           </Col>
