@@ -9,7 +9,7 @@ export const Cardex = () => {
       <Card
         style={{
           width: "25rem",
-          height: "8rem",
+          height: "11rem",
           border: "1px solid black",
           marginTop: "5px",
         }}
@@ -24,9 +24,10 @@ export const Cardex = () => {
               <Card.Text>
                 React is a open source library created by the facebook.
               </Card.Text>
+              <button>
+                <img src={imgLogo1} alt=""></img>
+              </button>
             </Card.Body>
-
-            <img src={imgLogo1} alt=""></img>
           </Col>
         </Row>
       </Card>
