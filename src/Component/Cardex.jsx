@@ -1,6 +1,7 @@
 import React from "react";
 import { Card, Row, Col } from "react-bootstrap";
 import ImgLogo from "./Img/main1.jpg";
+import imgLogo1 from "./Img/Comment.svg";
 import "../Component/Stylesheetex.css";
 export const Cardex = () => {
   return (
@@ -24,6 +25,8 @@ export const Cardex = () => {
                 React is a open source library created by the facebook.
               </Card.Text>
             </Card.Body>
+
+            <img src={imgLogo1} alt=""></img>
           </Col>
         </Row>
       </Card>
