@@ -45,7 +45,7 @@ export const Cardex = () => {
       <Card
         style={{
           width: "25rem",
-          height: "8rem",
+          height: "11rem",
           border: "1px solid black",
           marginTop: "5px",
         }}
