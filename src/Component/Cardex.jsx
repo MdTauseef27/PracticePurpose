@@ -60,6 +60,7 @@ export const Cardex = () => {
               <Card.Text>
                 React is a open source library created by the facebook.
               </Card.Text>
+              <button></button>
             </Card.Body>
           </Col>
         </Row>
