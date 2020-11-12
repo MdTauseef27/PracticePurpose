@@ -98,7 +98,9 @@ export const Cardex = () => {
               <button>
                 <img src={imgLogo2} alt=""></img>
               </button>
-              <button></button>
+              <button>
+                <img src={imgLogo3} alt=""></img>
+              </button>
             </Card.Body>
           </Col>
         </Row>
