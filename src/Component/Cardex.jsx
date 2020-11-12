@@ -92,7 +92,9 @@ export const Cardex = () => {
               <Card.Text>
                 React is a open source library created by the facebook.
               </Card.Text>
-              <button></button>
+              <button>
+                <img src={imgLogo1} alt=""></img>{" "}
+              </button>
             </Card.Body>
           </Col>
         </Row>
