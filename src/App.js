@@ -4,6 +4,7 @@ import { Cardex } from "./Component/Cardex";
 import { Mediaex } from "./Component/Mediaex";
 import { LoginForm } from "./Component/LoginForm";
 import { Model } from "./Component/Model";
+import { MoreLess } from "./Component/MoreLess";
 import { Row, Col, Container } from "react-bootstrap";
 import "./App.css";
 
@@ -19,6 +20,7 @@ function App() {
           <Mediaex />
           <LoginForm />
           <Model />
+          <MoreLess />
         </Col>
       </Row>
     </Container>
