@@ -12,5 +12,12 @@ export const MoreLess = () => {
     }
     return items.slice(0, MAX_ITEMS);
   };
-  return <div>{""}</div>;
+  return (
+    <div>
+      {" "}
+      {getRenderedItem().map((item, id) => (
+        <div key={id}>{item}</div>
+      ))}{" "}
+    </div>
+  );
 };
