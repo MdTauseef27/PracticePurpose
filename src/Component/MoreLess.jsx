@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Button } from "react-bootstrap";
 export const MoreLess = () => {
   const MAX_ITEMS = 2;
   const [isOpen, setIsOpen] = useState(false);
@@ -18,6 +19,7 @@ export const MoreLess = () => {
       {getRenderedItem().map((item, id) => (
         <div key={id}>{item}</div>
       ))}{" "}
+      <Button onClick={toggle}>{isOpen ? "less" : "more"} </Button>
     </div>
   );
 };
