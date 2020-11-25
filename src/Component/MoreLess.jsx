@@ -10,6 +10,7 @@ export const MoreLess = () => {
     if (isOpen) {
       return items;
     }
+    return items.slice(0, MAX_ITEMS);
   };
   return <div></div>;
 };
