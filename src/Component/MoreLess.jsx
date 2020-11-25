@@ -6,5 +6,10 @@ export const MoreLess = () => {
   const toggle = () => {
     setIsOpen(!isOpen);
   };
+  const getRenderedItem = () => {
+    if (isOpen) {
+      return items;
+    }
+  };
   return <div></div>;
 };
