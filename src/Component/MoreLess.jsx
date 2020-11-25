@@ -12,5 +12,5 @@ export const MoreLess = () => {
     }
     return items.slice(0, MAX_ITEMS);
   };
-  return <div></div>;
+  return <div>{""}</div>;
 };
