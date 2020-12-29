@@ -7,6 +7,9 @@ import imgLogo3 from "./Img/Like.svg";
 import "../Component/Stylesheetex.css";
 export const Cardex = () => {
   const [isCount, setIsCount] = useState(0);
+  const handlecounter = () => {
+    isCount++;
+  };
   return (
     <div>
       <Card
