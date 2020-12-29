@@ -73,6 +73,7 @@ export const Cardex = () => {
               <button onClick={() => setIsCount(isCount + 1)}>
                 <img src={imgLogo3} alt=""></img>{" "}
               </button>
+              Counter={isCount}
             </Card.Body>
           </Col>
         </Row>
