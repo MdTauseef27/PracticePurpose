@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Card, Row, Col } from "react-bootstrap";
 import ImgLogo from "./Img/main1.jpg";
 import imgLogo1 from "./Img/Comment.svg";
@@ -6,6 +6,7 @@ import imgLogo2 from "./Img/Push.svg";
 import imgLogo3 from "./Img/Like.svg";
 import "../Component/Stylesheetex.css";
 export const Cardex = () => {
+  const [isCount, setIsCount] = useState(0);
   return (
     <div>
       <Card
@@ -56,7 +57,7 @@ export const Cardex = () => {
           </Col>
           <Col sm={9}>
             <Card.Body style={{ margin: "10px" }}>
-              <Card.Title>Features Of React</Card.Title>
+              <Card.Title>Features Of React...</Card.Title>
               <Card.Text>
                 React is a open source library created by the facebook.
               </Card.Text>
